@@ -4,16 +4,19 @@ body {
 
 .sticky-header {
   position: fixed;
+  display: block;
   top: 0;
   left: 0;
   background-color: #708d81;
   width: 100%;
-  opacity: 0;
+  opacity: 0%;
   transition: opacity 0.2s;
+  bottom: 100%;
 }
 
 .sticky-header--visible {
   opacity: 1;
+  bottom: auto;
 }
 
 .sticky-header__title {
